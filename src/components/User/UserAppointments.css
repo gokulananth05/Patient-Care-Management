@@ -1,0 +1,74 @@
+/* Style for the main container */
+.appointments-container {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    background-image: linear-gradient(rgba(5, 10, 35, 0.404), rgba(5, 10, 35, 0.75)), url(../../Utils/Images/home-page-header.jpeg);
+    border-radius: 8px;
+  }
+  
+  /* Style for the back button */
+  .back-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 20px;
+    display: inline-block;
+  }
+  
+  .back-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Styling the heading */
+  h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for the appointment list */
+  .appointments-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  /* Style for each appointment card */
+  .appointment-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: calc(33.33% - 20px);
+    box-sizing: border-box;
+    margin-bottom: 20px;
+  }
+  
+  .appointment-card h3 {
+    color: #007bff;
+    margin-bottom: 15px;
+  }
+  
+  .appointment-card p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .appointment-card strong {
+    color: #333;
+  }
+  
+  /* Error message styling */
+  .error-message {
+    color: red;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  

@@ -1,0 +1,96 @@
+.doctor-dashboard-container {
+  padding: 20px;
+  background-color: #8cbaa8;
+}
+
+.doctor-dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #c9ffcf4f;
+  color: white;
+  padding: 15px;
+  border-radius: 30px;
+}
+
+.doctor-dashboard-title h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.status-toggle-button, .logout-button {
+  padding: 10px 15px;
+  background-color: #ffffff;
+  color: #4CAF50;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.status-toggle-button:hover, .logout-button:hover {
+  background-color: #e0e0e0;
+}
+
+.doctor-dashboard-summary {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin-top: 20px;
+  width: 70%;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+.summary-item {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.summary-item h4 {
+  margin-left: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.summary-item p {
+  font-size: 16px;
+}
+
+.appointments-section {
+  margin-top: 30px;
+  width: 70%;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+.appointment-card {
+  background-color: #ffffff;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: inline-grid;
+  
+}
+
+.appointment-complete-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.appointments-scrollable
+{
+  max-height: 500px;
+    overflow: scroll;
+}
+
+.appointment-complete-button:hover {
+  background-color: #45a049;
+}
